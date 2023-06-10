@@ -1,5 +1,5 @@
 const API_BASE_URL_DEVELOPMENT = 'https://localhost:7050';
-const API_BASE_URL_PRODUCTION = '';
+const API_BASE_URL_PRODUCTION = 'https://postapp.azurewebsites.net';
 
 const ENDPOINTS = {
     GET_ALL_POSTS: 'get-all-posts',
