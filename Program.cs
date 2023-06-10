@@ -11,7 +11,7 @@ builder.Services.AddCors(options =>
             builder
             .AllowAnyMethod()
             .AllowAnyHeader()
-            .WithOrigins("http://localhost:3000", "azureapp");
+            .WithOrigins("http://localhost:3000", "https://wonderful-glacier-08711c803.3.azurestaticapps.net");
         });
 });
 
